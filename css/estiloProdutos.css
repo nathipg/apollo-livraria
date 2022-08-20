@@ -1,0 +1,129 @@
+@font-face
+{
+	font-family: 'OCR';
+	src: url("../font/ocr_a_extended.ttf");
+}
+
+/* \__ Classes __/ */
+
+/* Menu Lateral*/
+.menu_lateral
+{
+	margin-top: 30px;
+	width: 15%;
+	height: 500px;
+	position: relative;
+	border-radius: 10px;
+	background-color: rgba(255, 228, 181, 1); /* cor: Moccasin */
+}
+
+.menu_lateral li
+{
+	font-size: 20px;
+	font-family: Arial, san-serif;
+	padding-bottom: 10px;
+}
+
+.menu_lateral img
+{
+	float: left;
+	position: relative;
+}
+
+.menu_lateral img#livro
+{
+	width: 50px;
+	height: 50px;
+	padding: 0px 65px 0px 65px;
+}
+
+.menu_lateral img#quadrinho
+{
+	width: 90px;
+	height: 90px;
+	padding: 0px 45px 0px 45px;
+}
+
+.menu_lateral h1
+{
+	text-align: center;
+	font-size: 25px;
+}
+/* Fim Menu Lateral*/
+
+
+.pe_caixa
+{
+	text-align: center;
+	border-radius: 10px;
+	height: 30px;
+}
+
+/* \__ Id's __/ */
+
+/*Produtos*/
+#produtos
+{
+	width: 66%;
+	height: 750px;
+	float: left;
+	margin-top: 30px;
+	background-color: rgba(255,255,255, 0.7);	
+}
+
+#produtos img
+{
+	-webkit-transition: all 0.4s ease-in; /*transição lenta*/
+	-ms-transition: all 0.4s ease-in; /*transição lenta*/
+	width: 156px; 
+	height: 226px;
+	padding: 5px;
+	float: left;
+}
+
+#produtos img:hover
+{
+	-webkit-transition: all 0.4s ease-in; /*transição lenta*/
+	-ms-transition: all 0.4s ease-in; /*transição lenta*/
+
+	-webkit-transform: scale(1.5); /*aumentar imagem*/
+	-ms-transform: scale(1.5); /*aumentar imagem*/
+}
+
+#produtos p
+{
+	text-indent: 5px;
+	text-align: left;
+	font-family: Arial, san-serif;
+}
+
+#livro_prod
+{
+	float: left;
+	border: rgba(250,250,210,1) solid;
+	width: 45%;
+	margin: 2%;
+}
+
+#produtos h1
+{
+	font-family: 'OCR';
+	text-align: center;
+	font-size: 40px;
+	clear: both;
+}
+
+#produtos footer
+{
+	float: none;
+	position: relative;
+	text-align: center; 
+	font-size: 30px;
+	margin-top: 610px;
+}
+
+#produtos footer ul li
+{
+	display: inline;
+}
+/*Fim Produtos*/

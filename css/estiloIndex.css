@@ -1,0 +1,110 @@
+/* \__ Id's __/ */
+
+/* Destaque */
+#destaque
+{
+	float: right;
+	width: 25%;
+}
+
+#destaque .corpo_caixa
+{
+	height: 745px;
+}
+
+#destaque img
+{
+	-webkit-transition: all 0.4s ease-in; /*transição lenta*/
+	-ms-transition: all 0.4s ease-in; /*transição lenta*/
+	padding: 20px;
+	width: 270px; 
+	height: 400px;
+}
+
+#destaque img:hover
+{
+	
+}
+
+#destaque p
+{
+	padding: 10px;
+}
+/* Fim Destaque */
+
+/* Oferta */
+#oferta
+{
+	width: 70%;
+	float: left;
+}
+
+#oferta .corpo_caixa
+{
+	height: 350px;
+}
+
+#oferta img
+{
+	-webkit-transition: all 0.4s ease-in; /*transição lenta*/
+	-ms-transition: all 0.4s ease-in; /*transição lenta*/
+	float: left;
+	width: 190px; 
+	height: 270px;
+	padding: 40px;
+}
+
+#oferta img:hover
+{
+	-webkit-transition: all 0.4s ease-in; /*transição lenta*/
+	-ms-transition: all 0.4s ease-in; /*transição lenta*/
+
+	-webkit-transform: scale(1.2); /*aumentar imagem*/
+	-ms-transform: scale(1.2); /*aumentar imagem*/
+}
+
+#oferta p
+{
+	margin-top: 0px;
+	padding: 40px;
+}
+
+/* Fim Oferta */
+
+/* Lançamento*/
+#lancamento
+{
+	float: left;
+	width: 70%;
+}
+
+#lancamento .corpo_caixa
+{
+	height: 350px;
+}
+
+#lancamento img
+{
+	-webkit-transition: all 0.4s ease-in; /*transição lenta*/
+	-ms-transition: all 0.4s ease-in; /*transição lenta*/
+	float: left;
+	width: 190px; 
+	height: 270px;
+	padding: 40px;
+}
+
+#lancamento img:hover
+{
+	-webkit-transition: all 0.4s ease-in; /*transição lenta*/
+	-ms-transition: all 0.4s ease-in; /*transição lenta*/
+
+	-webkit-transform: scale(1.2); /*aumentar imagem*/
+	-ms-transform: scale(1.2); /*aumentar imagem*/
+}
+
+#lancamento p
+{
+	margin-top: 0px;
+	padding: 40px;
+}
+/*Fim Lançamento*/
